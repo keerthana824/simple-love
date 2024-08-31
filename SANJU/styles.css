@@ -1,0 +1,292 @@
+
+body{
+    background-color: lightpink;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh; 
+    margin-top: -100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.message{
+    margin-top: -290px;
+    display: flex;
+    font-size: larger;
+    font-style: italic;
+    margin-left: 600px;
+    font-size: 150%;
+}
+
+button.rounded-button {
+    margin-left: 630px;
+    margin-top: -10px;
+    background-color: white; 
+    border: 2px solid #ccc; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #333;
+    cursor: pointer; 
+    outline: none; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+button.rounded-button:hover {
+    background-color: #f0f0f0; 
+    border-color: #999; 
+}
+
+.img-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh; 
+    margin-top: -130px;
+}
+
+.Question{
+    margin-top: -270px;
+    display: flex;
+    font-size: larger;
+    font-style: italic;
+    margin-left: 600px;
+    font-size: 150%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between the buttons */
+    margin-top: 5px; /* Space between the text and the buttons */
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+button:focus {
+    outline: none;
+}
+
+.img-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh; 
+    margin-top: -130px;
+}
+
+.cute-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    margin-top: -240px;
+    color: #ff69b4; /* Hot pink color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin-left: 10px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.love{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #b90202;
+    margin-top: -20px;
+}
+.arrow {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3em;
+    color: #fffafa; /* Blue color */
+    transition: transform 0.2s;
+}
+
+.arrow:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.arrow:active {
+    transform: scale(0.9); /* Shrink on click */
+}
+
+.secret{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-top: 250px;
+}
+
+.look{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;   
+}
+
+.wait{
+    display: flex;
+    font-size: 10px;
+    margin-top: 200px;
+    margin-left: 1000px;
+    padding: 20px 40px;
+}
+.love-text {
+    font-size: 3em;
+    color: #ff1493; /* Deep pink color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 200px;
+}
+
+.heart {
+    font-size: 1.5em;
+    color: red;
+    margin-left: 10px;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 110vh; 
+        margin-top: -130px;
+}
+
+.order1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+    font-size: larger;
+}
+
+.order2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: -25px;
+    font-size: larger;
+}
+
+.anothertime{
+    margin-top: 270px;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh; 
+    margin-top: -130px;
+    height: 100;
+
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: -25px;
+    font-size: larger;
+    margin-top: -200px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: larger;
+    margin-top: -30px;
+}
+ 
+.four{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -33px;
+}
+
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.six{
+     margin-top: 240px ;
+}
+
+.max{
+    margin-top: 80px;
+}
+ 
+.please{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.you{
+    margin-left: 30px;
+}
+
+.final{
+    margin-top: 20px;
+}
+
+.ooooo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
